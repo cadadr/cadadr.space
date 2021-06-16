@@ -1,0 +1,36 @@
+``` logo: ASCII art for "c.s/blag"
+
+     ██████╗   ███████╗    ██╗██████╗ ██╗      █████╗  ██████╗
+    ██╔════╝   ██╔════╝   ██╔╝██╔══██╗██║     ██╔══██╗██╔════╝
+    ██║        ███████╗  ██╔╝ ██████╔╝██║     ███████║██║  ███╗
+    ██║        ╚════██║ ██╔╝  ██╔══██╗██║     ██╔══██║██║   ██║
+    ╚██████╗██╗███████║██╔╝   ██████╔╝███████╗██║  ██║╚██████╔╝
+     ╚═════╝╚═╝╚══════╝╚═╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝
+```
+
+# Göktuğ’s Blaggings
+
+## A gemlog from cadadr.space
+
+‘cadadr.space/blag’ is the last iteration of my blog [1, 2], in the form of a Gem[ini b]log.  After some blogging first with Hakyll [3, 4] and then Dreamwidth [1], I felt the need for something lighter and simpler, so I decided to give Gemini a shot.  Some of the content below is copied over from my gopherhole on SDF [5], and I’ve linked to some interesting stuff from older blogs.
+
+=> ./blag-2021-06-01-poesy.gmi 2021-06-01 Introducing the ‘Poesy’ gemlog
+=> ./blag-2021-03-08-geminology.gmi 2021-03-08 Geminology: My first impressions of Gemini
+=> ./blag-2021-03-05-hello.gmi 2021-03-05 A Greeting: Hello, Gemspace!
+=> https://cadadr.dreamwidth.org/1124.html 2021-01-20 FOSDEM 2021 bookmarks
+=> https://cadadr.dreamwidth.org/#entry-828 2020-12-12 My email setup with Emacs, Rmail, msmtp/mpop, mairix, and then some more
+=> gopher://sdf.org/0/users/igk/ff-rant.txt 2020-09-02 Why I moved away from Firefox: A quick rant nobody asked for
+=> https://gkayaalp.com/blog/20200319_lingpreprints.html 2020-03-19 Preprint Archives for Linguists
+=> https://gkayaalp.com/blog/20200123_what_is_prog.html 2020-01-23 What is programming anyways?
+=> https://gkayaalp.com/blog/20180827_kutuphane.html 2018-08-27 Bilginin esareti—Türkiye üniversite kütüphaneleri
+=> https://gkayaalp.com/blog/20160816_turkish-coffee.html 2016-08-16 Turkish coffee
+
+                                  ⁂
+
+## Links
+
+=> https://cadadr.dreamwidth.org/ [1] Blog on Dreamwidth
+=> https://www.gkayaalp.com/blog/ [2] Archaeological remains of old borked blog
+=> https://jaspervdj.be/hakyll/   [3] Hakyll
+=> https://github.com/cadadr/www/tree/d69219adbfc43b7b5c4078476cb81288938f2bb6 [4] Current revision of my Hakyll based website
+=> gopher://sdf.org/1/users/igk   [5] My gopherhole on SDF.ORG.

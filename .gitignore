@@ -1,0 +1,5 @@
+html/wormhole/*.html
+
+*.qcow2
+*.img
+*.iso

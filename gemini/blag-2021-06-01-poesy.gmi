@@ -1,0 +1,12 @@
+# Introducing the ‘Poesy’ gemlog
+
+First published on: June 1st, 2021.  Part of the gemlog titled «Göktuğ’s Blaggings».
+
+=> ./blag.gmi «Göktuğ’s Blaggings» gemlog index
+
+                                  ⁂
+
+I just started yet another gemlog on this capsule, titled ‘Poesy’, where I’ll be publishing my original poetry.  The first post is already up, containing two examples.
+
+=> ./poesy.gmi Index page of the new gemlog
+=> ./poesy-2021-06-01.gmi The first post in there with the two poems

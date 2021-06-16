@@ -1,0 +1,19 @@
+# Poesy
+
+‘Poesy’ is my poems’ home.  Enjoy your stay!
+
+Everything licenced under the Creative Commons Attribution-ShareAlike 4.0 licence.
+
+=> https://creativecommons.org/licenses/by-sa/4.0/ CC BY-SA 4.0
+
+                                  ⁂
+
+=> ./poesy-2021-06-07.gmi 2021-06-07 A recent piece: “Nestles in sorrow a good day”
+=> ./poesy-2021-06-02.gmi 2021-06-02 Another from 2019: “Mother of day, sister of dusk”
+=> ./poesy-2021-06-01.gmi 2021-06-01 Two poems: “Pins and needles”, “I know nothing”
+
+                                  ⁂
+
+> Na véspera de não partir nunca
+> Ao menos não há que arrumar malas
+> ---Álvaro de Campos

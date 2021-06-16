@@ -1,0 +1,100 @@
+# Geminology: My first impressions of Gemini
+
+First published on: March 8th, 2021.  Part of the gemlog titled «Göktuğ’s Blaggings».
+
+=> ./blag.gmi «Göktuğ’s Blaggings» gemlog index
+
+                                  ⁂
+
+Last week’s been a beautiful one.  I got a new domain, this one, set up a Gemini capsule, again the one you’re reading, and by now, the whole thing is joyfully operational.  I even wrote a ‘hello, world’ post [*], but  now, my aim is to talk meta about it and ponder more clearly on why I did this and how I’m doing it, trying to avoid the storytelling.
+
+=> blag-2021-03-05-hello.gmi [*] The hello world post
+
+Let’s start with the ‘stack’.  This page comes to you through an OpenBSD 6.8 VM.  Your request was first welcomed by relayd [*], who then passed it on to inetd [†], which, kindly referred it to a vger [‡].
+
+=> https://man.openbsd.org/relayd.8 [*] relayd(8) manual
+=> https://man.openbsd.org/inetd.8  [†] inetd(8) manual
+=> https://tildegit.org/solene/vger [‡] vger git repository
+
+I composed these lines using Emacs, with gemini-mode [*] enabled, and I will upload the resulting files using scp.  I have also wrote a little GNU awk script [†] to convert Gemini documents to HTML, the output of which is available from the current domain when you access it using the HTTP(S) protocol [‡].  Having mentioned Emacs, I think here is the best place to mention my favourite Gemini client, which will probably surprise no-one: Elpher [**].
+
+=> https://git.carcosa.net/jmcbray/gemini.el [*] gemini-mode.el
+=> https://github.com/cadadr/gemini-scripts/blob/default/spaceh.awk [†] spaceh.awk, my Gemini->HTML script
+=> https://cadadr.space/wormhole/ [‡] HTTP mirror of cadadr.space
+=> https://thelambdalab.xyz/elpher/ [**] Elpher, a Gemini and Gopher client for Emacs
+
+Apart from these, for testing locally, I make use of QEMU to run an OpenBSD VM, and to see how my Gemini files render, I rely on the Jetforce server [*], which AFAICT is easier to run on from a command line and on a Linux based OS (I currently use Linux Mint 20.1), and Python 3’s http.server module when the need arises.  Incidentally, this leads to checking the Gemini documents with three programs, when you include the AWK script, which IMHO is a useful and no cost redundancy to have.
+
+=> https://github.com/michael-lazar/jetforce [*] Jetforce
+
+As for the why’s of the above setup, let me start with OpenBSD and vger.  I am new to running webservers, so the main reason behind the choice of OpenBSD is it’s secure by default approach.  I’d rather focus on not opening security holes than chase open ones, and OpenBSD, AFAIK and as far as I’ve been told by the Fediverse when I asked, does just that.  As for vger, I like that it defers TLS to more mature software, namely relayd and inetd.  Seeing other servers deal with TLS themselves makes me wary, as security is no easy thing, and I, as a total n00b to network security, am in no place to judge the code.
+
+Arguments are more subjective when it comes to Emacs setup.  Basically, I do most of what I do on a computer on Emacs and Qutebrowser, so it was a fairly obvious choice.  I haven’t tried a lot of other clients, but I am happy with what I have [1].
+
+The other important ‘why’ is ‘why Gemini’.  The answer to this is not necessarily complex, but maybe requires some verbosity: WWW has everything, and server decides how things look.  It is of course possible to reduce and transform the HTML/JS/CSS you receive, but it’s a thankless and endless endeavour.  The default styling of WWW UAs has stuck in 1990s, when screen resolutions have grown by orders of magnitude and there’s unprecedented variation in the morphology of client devices.  This means one _has_ to style their web pages, or else the visitors are presented hostile web pages.  Yes, you can resize a browser window, but then every tab will need to be a different size.  As a merciful author of web pages, if you try to style your page so as to be readable by default across the spectrum, that again is a thankless and endless travail.  With Gemini, the protocol and the markup are designed such that neither the author nor the visitor need worry about this, as the decision on the final look of a document is expressly deferred to the user agent, which can be selected and/or configured by its user to perfectly fit their needs and hardware.  This is facilitated by the simplicity of the protocol and the markup, which allows for easy creation of diverse user agents.  In sum, a lot of worries are expressly resolved, which improves everything for both the reader and the author.
+
+Which should lead on to, ‘why not Gopher’.  IMHO, Gopher suffers from some similar issues.  A document in Gopher can be in anything and any format.  Decisions on the rendered form of the documents need to happen beforehand.  E.g. you’d probably want to hard-wrap your lines in your text documents, but this may lead to bad rendering when the user agent scales it.  There’s no concept of links, block quotes, lists, and headings, which leads to everyone using their own convention, which are again useless decisions to make.  Gemini covers the base of most necessary markup, and some decisions are conventionalised and standardised, which means user agents can use this primitives to properly adapt documents to the circumstances of the visitors, and the authors only need to think of the authoring part of things.
+
+Of course there are other benefits to Gemini that people talk about, like privacy, and a separate space that helps set good expectations, and the community aspect, which I all agree are great, but the above are my main reasons.  Gemini is expressly for authoring and reading, and does away with all the cruft that gets in the way.  I really like this.
+
+Another downside of Gopher that I wish to mention is that while Gopher is pretty simple for machines, it’s not as simple for humans.  It’s error prone to deal with Gopher’s maps directly, so you need intermediary programs to generate them.  The syntax is very much intended for machines.  With Gemini, while the format is also trivially machine-readable, the more important thing is it’s very straightforward for humans to write and interpret, too.  A gophermap, not so much.
+
+                                  ⁂
+
+All that said, there are some limitations of Gemini that required me to come up with and reuse some conventions from general plain text authoring.  First and foremost, links can not be embedded into text.  While I see this as a good thing generally, as inline hyperlinks lead to [so](something.html) [many](anotherthing.html) [anti](wat.pdf)[patterns](notalink.wav), and subjectively also to distractions, but they are also handy for contextualising external links.  For this, when necessary, I use footnote symbols.  If I want to refer to a link in a paragraph, I insert a leading identifier symbol to the links text, and use it in the paragraph to refer to it, much like in printed press.  The footnote symbols I use are characters that are enclosed in square brackets, and the following is the range I stick to, in ascending order of use: [*], [†], [‡], [**], [††], [‡‡].  I’ve bound keys for these in Emacs, so they are easy to insert.  These links always immediately follow the paragraphs they relate to, so they don’t require navigating to elsewhere in the document in order for them to be read and/or followed.
+
+Sometimes parenthetical text gets too big for including inside the paragraph, in which case I make use of end notes.  If you see a number enclosed in square brackets in my prose, like this: [2], it is an identifier for a note that’s found at the end of the document.  This is suboptimal, as it requires jumping around in the document, but a client like Emacs would make this easier as you can save and retrieve the position of the text cursor (pushing/popping the mark, in Emacs lingo), and the identifiers, similarly to ‘paragraph notes’, are easily searchable.  I’ll always start an end note’s text with the identifier at the beginning of its first line, so a regular expression like
+
+```
+/^\[\d+\] /
+```
+
+should match the identifier.
+
+Finally, I like using horizontal lines in HTML as topic separators that indicate a larger separation than a paragraph, but not large enough for a section.  An analogue of the HR tag is absent from Gemini, so I use the Unicode ASTERISM (U8258) standing alone in a line by itself instead.  Depending on the client you’re viewing, you may see it centred or at the beginning of the line.
+
+While the above mainly constitutes a document for myself to follow, it should also function as a statement on the shortcomings of Gemini when compared with WWW and mainly HTML.  I would say criticism, but I don’t because I’m of the opinion that especially a feature like end notes would unnecessarily complicate a protocol, making new implementations of user agents and parsers considerably more difficult.
+
+                                  ⁂
+
+In conclusion, Gemini is easy to set up and is potentially helpful to foster a community that puts the author, the reader, and the written word to the forefront, and makes diversity and configurability in user agents trivial to make use of, and that’s mainly why I’m joining to the ‘Geminiverse’, with my little capsule over here.  Of course technical solutions can only go so far in addressing social problems, so fostering a lively and inclusive Geminiverse is essential, but such a task is undeniably made easier with right tools, and I’m of the opinion that Gemini is a great approximation.
+
+                                  ⁂
+
+[1] Getting Elpher to play with your FreeDesktop system is easy but somewhat obscure.  You can achieve it by adding the following into ~/.local/share/applications/elpher.desktop, and enabling Emacs’ server:
+
+``` ~/.local/share/applications/elpher.desktop
+[Desktop Entry]
+Name=elpher
+Exec=emacsclient -nc -eval (elpher-go\ \"%u\")
+Type=Application
+StartupNotify=false
+Categories=System;
+MimeType=x-scheme-handler/gopher;x-scheme-handler/gemini;
+```
+
+It’s also fairly straightforward to add Gemini and Gopher support to Org mode, just paste the following to your init.el:
+
+``` gemini and gopher links for Org mode
+(dolist (proto (list "gopher" "gemini"))
+  (org-link-set-parameters
+   proto
+   :follow 'gk-org-elpher-follow
+   :store  'gk-org-elpher-store))
+
+(defun gk-org-elpher-follow (path arg)
+  (ignore arg)
+  (elpher-go path))
+
+(defun gk-org-elpher-store ()
+  (when (and (eq major-mode 'elpher-mode))
+    (let ((proto (elpher-address-protocol (cadr elpher-current-page))))
+      (org-link-store-props
+       :type proto
+       :link (elpher-address-to-url (cadr elpher-current-page))
+       :description (car elpher-current-page))
+      t)))
+```
+
+
+[2] You found me!

@@ -1,0 +1,38 @@
+``` logo: ASCII art for ‘cadadr.space’
+
+                 _           _
+                | |         | |
+    ___ __ _  __| | __ _  __| |_ __ ___ _ __   __ _  ___ ___
+   / __/ _` |/ _` |/ _` |/ _` | '__/ __| '_ \ / _` |/ __/ _ \
+  | (_| (_| | (_| | (_| | (_| | |_ \__ \ |_) | (_| | (_|  __/
+   \___\__,_|\__,_|\__,_|\__,_|_(_)|___/ .__/ \__,_|\___\___|
+                                       | |
+                                       |_|
+```
+
+‘cadadr.space’ is the homely-page of Göktuğ, a '90s kid from Turkey, an MA student in Linguistics at Hacettepe University and an hobbyist itch-your-own-scratch hacker.
+
+                                  ⁂
+
+=> ./blag.gmi c.s/blag is my gemlog
+=> ./poesy.gmi I publish my poetry on the ‘Poesy’ gemlog
+=> ./laurea-maestrale.gmi Master’s gemlog
+=> ./blag-2021-03-05-hello.gmi A Greeting: Hello, Gemspace!
+=> gopher://sdf.org/1/users/igk Gopherhole
+=> https://cadadr.dreamwidth.org/ Old blog
+=> https://gkayaalp.com/blog/ Older, borked blog
+
+=> mailto:self@gkayaalp.com E-mail
+=> http://pgp.mit.edu/pks/lookup?op%3Dvindex&search%3D0x465CD949B1012427 Pubkey
+=> https://www.gkayaalp.com/ WWW homepage
+=> https://mastodon.sdf.org/@cadadr Mastodon
+=> https://pixelfed.social/cadadr Pixelfed
+=> https://github.com/cadadr Github
+=> https://hcommons.org/members/cadadr Humanities Commons
+=> https://orcid.org/0000-0002-9283-2319 ORCID
+=> https://reddit.com/u/gkayaalp/ Reddit
+
+                                  ⁂
+
+Unless otherwise stated, everything on this server is licenced under the Creative Commons Attribution-ShareAlike 4.0 International licence [1].
+=> http://creativecommons.org/licenses/by-sa/4.0/ [1] CC BY-SA 4.0 International

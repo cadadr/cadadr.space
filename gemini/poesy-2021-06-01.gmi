@@ -1,0 +1,38 @@
+# Two poems: “Pins and needles”, “I know nothing”
+
+First published on: June 1st, 2021.  Part of the gemlog titled «Poesy».
+
+=> ./poesy.gmi «Poesy» gemlog index
+
+                                  ⁂
+
+These two pieces are from the late spring of 2019.  I might’ve published the first one on tildes.net in the past.
+
+=> https://tildes.net Tildes
+
+## Pins and needles
+
+```
+Pins and needles
+in my left leg.
+As I minimally move
+they acute and grave.
+I sleep, I shall wake up;
+what will it have been:
+a circumflex, or an umlaut?
+```
+
+## I know nothing
+
+```
+I know nothing
+nor do I want to:
+a blank brain
+is all I want!
+
+I have nothing
+nor do I want to:
+I want to be,
+nothing else do I want!
+```
+

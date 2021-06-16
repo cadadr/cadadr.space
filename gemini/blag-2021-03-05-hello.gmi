@@ -1,0 +1,85 @@
+# A Greeting: Hello, Gemspace!
+
+Fist published on: March 5th, 2021.  Part of the gemlog titled «Göktuğ’s Blaggings».
+
+=> ./blag.gmi «Göktuğ’s Blaggings» gemlog index
+
+                                  ⁂
+
+>                        Na véspera de naõ partir nunca,
+>                        Ao menos não há que arrumar malas
+>                                 --- Álvaro de Campos
+
+Caution!  Don't read this.  It's mostly a history of me and computers.  If you're about my age, you'll probably end up crying out of nostalgia, if you're older, you'll probably get a cringe from stuff I talk of as ancient, and if you're younger, you might get bored out of your mind.  I mean, read on if you want, but don't tell me I didn't warn you :)  Maybe you’ll like reading the last two sections, tho.
+
+## The Primordial Reign of Curiosity
+
+My adventure with computers and internet began back when it was small, but not tiny.  A computer was given to me by the fancy school I had won a scholarship for [2]; it had a 20GB hard drive in it, and I'm really straining my memory here but it must have had a Pentium CPU at some abysmal clock speed and maybe 128 or 256MB of RAM.  This was recent enough that 128MB or even 1GB USB sticks were a thing, but enough in the past that we were also asked to bring floppy disks to the classes in the computer lab.  My PC had Windows 98 on it.  Soon, I became notorious among computer repairs people of my town.  I'd fiddle with the thing continuously, put whatever version of Windows I could get my hands on [3], open it up and break something, or just break the OS in some way.  My poor dad would have to carry the white, fridge coloured thing with me to the repairs shops, where repairsmen would tell me off for borking the machine.  But it was the most fascinating thing ever, and I couldn't stop fiddling with the thing.
+
+Soon enough I discovered you can do this thing called "programming", and I went on a quest to learn how to do it.  I eventually found Dev-C++ [4], and learned rudimentary C and C++ through its help pages.  I recall almost vividly writing a command line calculator, compiling it, putting it on a 1.44MB 3.5" floppy disk, and showing it to our computer lab teacher [5].
+
+Later on, some time later I found out about web, and started playing around with Macromedia Dreamweaver [1], trying to figure out how those things were made.  Now, today, if you want to learn web development, resources _abound_, there is just not a word in any language to make proper justice to the abundance of MOOCs, documentation, blog posts, video courses, starters' kits, books, manuals, papyri, encyclopaediae, etc. when you wish to start out as a web developer (which I don't know if is for better or worse).  There's no end nor beginning to it.  Back then, not so much.  It took me a long time to understand that what I could do in Dreamweaver was not much more than a façade of a web page, and there was way more to a web page than the façade.  It took a very long time for me to realise that there was this thing called PHP, the secret sauce of web pages.  Soon enough I also found out about LAMP [6], which must have been how I found out about Linux and Unix, which lead to me putting whatever operating system I came across on my computer.  I recall that it all started with an installation CD of SuSE Linux 7 or 8 I got from a local repairs shop.  Distro hopping became my main hobby (probably before that expression was coined), and I kid you not I tried everything under the sun.  I clearly recall using Mandrake and Pardus for long stretches of time.  But I also learned about operating systems like the original UNIX, BSD, Solaris, Minix, BeOS, Haiku, Mac OS X, NeXTSTEP, and whatever.
+
+Eventually I even wrote my own "operating systems", i.e. small boot sector programs that echoed stuff back to you or just displayed a message.  Back when BIOS menus didn't look like action movie computer UIs.
+
+Web was fun.  Unlike other stuff, you could do things and get useful results back immediately.  I made countless web sites that I put on free web hosts which injected ads to your pages.  Little PHP blogs, silly little websites.  I don't recall what exactly I did, but I do recall it was almost all I did.  Guidance was abysmal, documentation was tiny, nobody I knew knew this stuff.  But also stuff was simpler.  Nobody fainted at the sight of a CGI URL with query parameters.  Terms like load balancers, MVC, frameworks, etc. were probably words that were only uttered in big corporations, if at all.  You published a website, i.e. your buggy vulnerable PHP script, via FileZilla and/or through the cPanel of a nasty free shared hosting provider.  In a way, life is better today, but in another, it's way worse.  Back then, it was easy to grok the whole stack, and replicate it locally.  It was LAMP, but bigger.  Today, it's so complex, we upload entire operating system images; but it _is_ safer.
+
+## A Tale of Silicon and Ire
+
+This all happened in between 2005 and 2009.  Between 2009 and 2011, I didn't have a personal computer, after my new computer I got was foreclosed for our debts; the old one was broken beyond repair.  My interest in computers thus soon waned, until I got a laptop in 2011.  When I got back to my old habits after a few months, maybe a year of not doing much with it, it was a different world.  Now, PHP was the butt of all jokes, WordPress was scoffed at, and you coded web apps using AJAX and web frameworks.  "Linux" was the cool new operating system that the cool hackers used (i.e. it was rediscovered in some circles), Ubuntu had become viable, Mandrake had disappeared, SuSE was a random arrangement of four annoying letters, and people were looking at Windows XP and Internet Explorer like they looked at their 100yo moribund grandpa they had to visit as 5 years olds.  Yet SPAs were unheard of, and heavy AJAX apps were countable on the fingers of one's one hand.  People admired GMail, but dared not attempt to replicate that marvel.  I decided I wanted to become a professional programmer.
+
+A few months after graduating from secondary education, I dropped everything in my life and studied for a year and a half.  I rarely left home.  Self-taught myself programming.  I learned Python and JavaScript, along with every other programming language under the sun.  Whatever programming language you can think of, I wrote a hello world in it.  But eventually, I was a viable Python programmer, altho suffering from a severe case of imposter syndrome.  This is about time I wrote my first programs and uploaded them to Github.  My first handle was "gkya".  I recall having written a command line tool called "onchange", in Go, back when it was fresh outta oven (onchange was similar to what entr is today; the account is deleted, the sources of the program is sadly lost).  At the end of that period I even found a job as a Django programmer.  That was a definitive period of my life.  It's when I learned what work was and hated it.  I was overworked.  Left home 7am, commuted for 3hrs, worked til 7pm, came back home 10pm, slept, and goto loop.  Despite having agreed to work 10am--5pm, as alongside the job I was also preparing for higher education qualifications (which is based on a yearly national test in Turkey).  I was made to write front end code with JavaScript and jQuery, despite not knowing much more about JavaScript than the rudimentary stuff, and knowing nothing at all about jQuery.  At the end of that month, I found out that I earned less than half of the other junior developer that worked with us, and a tenth of the senior guy.  I was enraged.  I quit the next Monday, despite being offered a raise of almost %100.  I hated that experience, it was nothing like I imagined, and I once again lost interest in everything to do with programming, partly because of that experience.  My curiosity shifted towards philosophy and humanities.  I ended up studying Italianistics as an undergrad after two years outside education post high school.  For more than a year and a half, I barely if ever touched my computer.  It was mostly at the custody of my brother, by which I mean he was torturing it with games it was nowhere near powerful enough to render (IIRC).
+
+## A Dance of Yearning
+
+In the second year of university, however, I slowly got sucked back into it.  I wanted to use it for writing and notetaking.  Set it up with FreeBSD, with a minimal configuration that I version controlled with first RCS, then CVS.  This is 2015 IIRC, and while a lot changed about my setup, it is still a direct continuation of what I did back then.  CVS was simple, and I wanted to not publish my dotfiles online, as I saw it a distraction (which it indeed sometimes is).  About a year later I moved to Arch Linux, but it was still my little cave for writing and notetaking in Org mode, and it was still a second class citizen in my life, below the caste of Pen and Paper.  But over the next 5 years I did more and more on the computer.  My configuration grew, Mercurial replaced CVS, Git replaced Mercurial, and Ubuntu replaced Arch Linux, which was followed by Debian, and finally Linux Mint today.  And maybe, some day, GuixSD... [*]
+
+=> https://gnu.org/software/guix Guix
+
+In the years since I attempted many times to learn web development (again because I had forgot it all), desktop app development and mobile development, but it never went anywhere.  I did need a job and programming was always the first answer, but frankly I didn’t want to do it.  It was part the lameness of the job, writing boring Frankenstein not-at-all-CGI scripts and drowning in the crazy mess that little Node.js had become (I recall it’s first days, it was a beautiful little thing, and what was consequently done to it is a melancholic memory of yours truly; but really enjoyed using it back then in the early days), part the experience I had back in that Django and jQuery place, and part circumstance.
+
+Modulo the Days of the Dial-Up Modem, I had seen with my own eyes almost all stages of World Wide Web as its short history unfolded, tho at times with long entr'actes.  It was a story of... IDK... you recall the first time you got really drunk?  Really wasted?  It’s great fun when you’re together with your friends, drinking.  It’s fun and it’s illegal.  At the height of it you’re doing the stupidest of things and soon it all starts to become disgusting, someone throwing up in a corner, some other crying, some making out but they can’t tell the lips of some other person from the edge of the carpet.  And then you go home, you try to act sober to your parents, to keep it together, but you’re a stinking mess.  The fun of it is all gone, and all you want is to throw up and then sleep through the next week.  The other day you wake up just before dawn, you have the worst hangover you’ll ever have, and whatever you do it’ll just be like that for the next couple of days.  You remember only half of whatever the hell happened yesterday, and it’s all so embarrassing you want pretend to have had a blackout.  We’re in those "next couple of days".  Trying hangover remedies in vain.
+
+## A New Becoming
+
+That state of the web pushed me to go after alternatives.  First, I found SDF [*], then I found out about the Fediverse [†], and conveniently enough, SDF introduced a Mastodon instance [‡] about when I was looking for one to join to.  I also found out about Gopher first, and then Gemini later.  I did start a gopherhole soon enough on SDF [**], tho it generally stagnated.  I used a series of static site generators, including a couple ad hoc ones that I wrote [††, ‡‡], to generate nice, minimal, personal web pages.  I always loved personal webpages and blogs.  Loved contemplating other people’s ones, especially those with a similar, minimalist attitude (minimalist in the actual sense of the word).  They are always personal, cosy, beautiful, and homely.  But they are also increasingly a second class citizen on the World Wide Web.  Marginalised, unaccounted for.  Web browsers became torture devices, and the web became to resemble the kitchen sink or the toilet bowl: a gateway to the sewers.  Like many others, I wanted out of it, especially after Mozilla decided that we were but a nuisance.
+
+=> https://sdf.org [*] S(uper)D(imension)F(ortress).ORG
+=> https://en.wikipedia.org/wiki/Fediverse [†] Fediverse on Wikipedia
+=> https://mastodon.sdf.org/ [‡] SDF.ORG Mastodon instance URL
+=> gopher://sdf.org/1/users/igk [**] My gopherhole
+=> https://github.com/cadadr/txtweb [††] txtweb, a static site generator with m4, awk, and make
+=> https://github.com/cadadr/makas [‡‡] makas, another I wrote in Ruby, using RedCloth
+
+I gravitated towards Gopher for a long time but the protocol was clumsy, gophermap files were clumsy.  Hiding in my little corner of the WWW was nicer.  Then I found out about Gemini and it was interesting but I didn’t believe it was much different from Gopher.  If I already had gopher, why bother with this new protocol I thought.  But recently, I wanted to redo my website [7], which happens to be when I eventually properly studied Gemini. which is basically the last few weeks.  It was arbitrarily limited in some ways (e.g. no nested lists), but it was beautiful.  It was all people.  People everywhere.  So I decided I wanted to be a part of this, and started working on cadadr.space.  I got that domain thinking of it as "cadadr’s Private Space", not thinking about the astronomical connotation of the name.  Admittedly it did take a long time for me to notice how prevalent the space theme was in Gemini (yes, I am bad at obvious things at times ¯\_(ツ)_/¯), and I wish I had come up with something cleverer that would maybe fit in better, but it’s too late and I kinda go with cadadr everywhere, so it is what it is, and I’m happy.
+
+As of now this is being served out of an OpenBSD virtual machine on Vultr, using Solène’s gemini server [*], which I really like because it delegates handling TLS to OpenBSD’s inetd and relayd.  Soon enough tho I wish to move to a better host, a small, ethical, free-software-adjacent one [†].  I do know of a couple potential ways to go, but IDK if I’m good enough with OpenBSD and sysadmin yet to pull it off.  Vultr has a free trial and OpenBSD virtual machines, so I’m using it to learn for now.
+
+=> https://tildegit.org/solene/vger [*] vger
+=> https://openbsd.amsterdam [†] OpenBSD.Amsterdam is the one such service I know of
+
+## An Affable Invitation
+
+So, welcome to cadadr.space!  This is my new little home on the internet.  My cosy little corner of it, my little nook.  My homely-page I called it thus, for I intend it to be homely indeed, unlike homepages, which are now inevitably like those fake sleazy bars and coffee shops in bustling upper middle class city centres, which only the rich can afford to frequent; designed to look like home, but even with the best of intentions, destined to never feel like one, for a home or homeliness are found in a neighbourhood, which can not be canned and put on sale at a downtown Starbucks.
+
+Gemini is my new neighbourhood, so please welcome me here, and never hesitate to be my guest!
+
+                                  ⁂
+
+[1] The dates are a bit confusing here.  I look up Macromedia Dreamweaver and I see that it was bought by Adobe in Sep 2005, which must be about time I got my first computer.  So I suppose Adobe might've kept calling it Macromedia Dreamweaver for a while, because I don't recall ever using a program called Adobe Dreamweaver.
+
+[2] That's one crazy story that involves ~10yo me, Bob Ross, Turkish national TV, and one of the top private schools in my country (which has been bought by a private schools chain since, AFAICT).
+
+[3] I recall installing Windows 3.1, and enjoying Windows 95, but eventually, I upgraded to the latest technology: Windows XP.
+
+[4] I just found out that it's been open sourced!!!
+
+=> https://github.com/Embarcadero/Dev-Cpp Dev-C++ source repository
+
+[5] Who was totally disinterested.  IDK how someone could be such and asshole and still be a teacher.
+
+[6] The "Linux, Apache, MySQL, PHP" stack, for the young'uns, who were birthed in to Better Times, who didn't have to know about the Eyebrowless Evil Man and Om-nom-nom-acle Corp, who use Node.js without having seen it be inaugrated as this new silly thing in a Hacker News post of a talk by a shy little guy, who had not to endure the travail of righting the wrong that's xorg.conf.  Ah shit, is this what being and adult is like?
+
+[7] Long story short, the latest iteration of my website is based on Hakyll [*], which in itself is a beautiful little thing and a joy to use, but Haskell and especially Cabal are the polar opposite of that, which has lead me to avoid writing new stuff on it.
+
+=> https://jaspervdj.be/hakyll/ [*] Hakyll
