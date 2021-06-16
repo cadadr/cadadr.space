@@ -1,0 +1,45 @@
+#+title: TODOs & Notes
+
+- [ ] disallow floc for HTTP(S)
+  - https://bsd.network/@deowyth/106058925391385901
+
+- [ ] fix ipv6
+  - https://octodon.social/@kensanata/106064324575964557
+
+- [ ] use the vger package from openbsd
+  - it was added recently?
+
+- [ ] use let’s encrypt cert for gemini?
+  - the status of the CN field matching the domain seems to be
+    controversial right now:
+    - starting point: https://alexschroeder.ch/wiki/2020-07-20_Does_a_Gemini_certificate_need_a_Common_Name_matching_the_domain%3F
+
+- [ ] git server?
+  - https://git.zx2c4.com/cgit/about/
+    - my initial attempt failed but there’s this guide:
+      - https://aaoth.xyz/2021/01/06/run-cgit-on-obsd.html
+      - AFAIU I’ll _have to_ do this in a subdomain
+  - plus maybe oddmuse wiki for bug tracking
+    - this is how alex does it:
+      - https://alexschroeder.ch/software
+  - Alternative to cgit: https://kallithea-scm.org/
+    - can do hg too
+  - accompanying mailing list?
+    - https://wiki.list.org/HyperKitty
+
+- [ ] move hacettepe rss scrapers to this server and close gitlab
+  account
+
+- [ ] gemini to atom
+  - gemini://gemini.circumlunar.space/users/solderpunk/gemlog/gemini-hearts-atom.gmi
+  - https://tildegit.org/solderpunk/CAPCOM
+
+- https://git.sr.ht/~kr1sp1n/awesome-gemini
+
+- gemini://gemini.circumlunar.space/software/
+
+- https://mastodon.sdf.org/@cadadr/105774113420150968
+  - Fediverse, what's your favourite #gemini server?
+
+- https://gemini.circumlunar.space/docs/
+  - protocol docs
