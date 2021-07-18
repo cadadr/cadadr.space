@@ -1,0 +1,57 @@
+# Two of my earliest English poems: “From behind a door”, “And as Night sails along”
+
+First published on: July 18th, 2021.  Part of the gemlog titled «Poesy».
+
+=> ./poesy.gmi «Poesy» gemlog index
+
+                                  ⁂
+
+These two poems, as the title says, are some of my earliest English poems that I have recorded.  They are from early 2018.
+
+The second one has some potentially screenreader-unfriendly play, which I’ll explain at the end of the page. Enjoy!
+
+## From behind a door
+
+```the poem
+From behind a door
+I imagine you will arrive
+with that peace-bearing air to you.
+I will immerse myself
+in the words you'll keep to yourself
+while mouths are dripping warm sounds
+for nothing else than sharing a moment.
+I imagine your embrace
+which will lighten the dense awe of being.
+I imagine you leaking
+into all my cracks and voids
+filling that absence of you in me
+which I had since
+time immemorial.
+I long for a past which never happened
+where I always imagine you present
+saving me lovingly from
+the to-days I everyday resent.
+```
+
+## And as Night sails along
+
+```the poem
+And as Night sails along
+as the patron of all Formation
+as the patron of all those
+who presume to be Creation
+as the Gods with hazy eyelids
+which put them to Dormition
+o her Name Merciful's soave bosom
+where the Holy sleep, where the
+holy Sleep guards them and us
+as she travels aboard the Mother's ship
+as every Star would notice
+the blinding Splendor
+as Night sails along
+as the Holy sleep the holy Sleep.
+```
+
+                                  ⁂
+
+The screenreader-unfriendly play here is that in the first occurrence of the phrase "holy sleep", "holy" starts with a capital letter, whereas in the second instance in the following verse, the word "sleep" starts with a capital letter. The same pattern repeats in the last verse. Also, words Night, Formation, Creation, Dormition, Mother, Star and Splendor are extraordinarily capitalised.
