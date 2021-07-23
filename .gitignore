@@ -1,4 +1,5 @@
 html/wormhole/*.html
+html/wormhole/*.atom.xml
 
 *.qcow2
 *.img

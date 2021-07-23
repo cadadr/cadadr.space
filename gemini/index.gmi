@@ -22,6 +22,17 @@
 => https://cadadr.dreamwidth.org/ Old blog
 => https://gkayaalp.com/blog/ Older, borked blog
 
+                                  ⁂
+
+My gemlogs' Atom feeds for HTTPS viewers:
+
+=> ./blag.atom.xml Atom feed for c.s/blag
+=> ./poesy.atom.xml Atom feed for Poesy
+=> ./laurea-maestrale.atom.xml Atom feed for Laurea Maestrale
+
+                                  ⁂
+
+
 => mailto:self@gkayaalp.com E-mail
 => http://pgp.mit.edu/pks/lookup?op%3Dvindex&search%3D0x465CD949B1012427 Pubkey
 => https://www.gkayaalp.com/ WWW homepage
