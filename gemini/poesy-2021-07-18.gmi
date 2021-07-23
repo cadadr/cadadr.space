@@ -12,7 +12,7 @@ The second one has some potentially screenreader-unfriendly play, which I’ll e
 
 ## From behind a door
 
-```the poem
+``` the poem
 From behind a door
 I imagine you will arrive
 with that peace-bearing air to you.
@@ -35,7 +35,7 @@ the to-days I everyday resent.
 
 ## And as Night sails along
 
-```the poem
+``` the poem
 And as Night sails along
 as the patron of all Formation
 as the patron of all those
