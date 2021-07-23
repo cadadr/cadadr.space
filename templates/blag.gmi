@@ -1,0 +1,8 @@
+# 
+
+First published on: @@DATE@@.  Part of the gemlog titled «Göktuğ’s Blaggings».
+
+=> ./blag.gmi «Göktuğ’s Blaggings» gemlog index
+
+                                  ⁂
+
