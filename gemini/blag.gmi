@@ -14,6 +14,7 @@
 
 ‘cadadr.space/blag’ is the last iteration of my blog [1, 2], in the form of a Gem[ini b]log.  After some blogging first with Hakyll [3, 4] and then Dreamwidth [1], I felt the need for something lighter and simpler, so I decided to give Gemini a shot.  Some of the content below is copied over from my gopherhole on SDF [5], and I’ve linked to some interesting stuff from older blogs.
 
+=> ./blag-2021-07-23-furniture.gmi 2021-07-23 On traditional Turkish furniture, and dedicated space vs. dynamic space
 => ./blag-2021-06-01-poesy.gmi 2021-06-01 Introducing the ‘Poesy’ gemlog
 => ./blag-2021-03-08-geminology.gmi 2021-03-08 Geminology: My first impressions of Gemini
 => ./blag-2021-03-05-hello.gmi 2021-03-05 A Greeting: Hello, Gemspace!
