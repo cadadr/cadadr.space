@@ -19,8 +19,7 @@
 => ./laurea-maestrale.gmi Master’s gemlog
 => ./blag-2021-03-05-hello.gmi A Greeting: Hello, Gemspace!
 => gopher://sdf.org/1/users/igk Gopherhole
-=> https://cadadr.dreamwidth.org/ Old blog
-=> https://gkayaalp.com/blog/ Older, borked blog
+=> https://cadadr.dreamwidth.org/ Blog
 
                                   ⁂
 
